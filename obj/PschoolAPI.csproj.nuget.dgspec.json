@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Nisreen\\Desktop\\PschoolAPI\\PschoolAPI\\PschoolAPI.csproj": {}
+    "E:\\Nisreen\\Desktop\\PschoolAPI\\PschoolAPI.csproj": {}
   },
   "projects": {
-    "E:\\Nisreen\\Desktop\\PschoolAPI\\PschoolAPI\\PschoolAPI.csproj": {
+    "E:\\Nisreen\\Desktop\\PschoolAPI\\PschoolAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Nisreen\\Desktop\\PschoolAPI\\PschoolAPI\\PschoolAPI.csproj",
+        "projectUniqueName": "E:\\Nisreen\\Desktop\\PschoolAPI\\PschoolAPI.csproj",
         "projectName": "PschoolAPI",
-        "projectPath": "E:\\Nisreen\\Desktop\\PschoolAPI\\PschoolAPI\\PschoolAPI.csproj",
+        "projectPath": "E:\\Nisreen\\Desktop\\PschoolAPI\\PschoolAPI.csproj",
         "packagesPath": "C:\\Users\\Nisreen\\.nuget\\packages\\",
-        "outputPath": "E:\\Nisreen\\Desktop\\PschoolAPI\\PschoolAPI\\obj\\",
+        "outputPath": "E:\\Nisreen\\Desktop\\PschoolAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nisreen\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -44,6 +44,12 @@
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.7, )"
             },
