@@ -23,7 +23,6 @@ namespace PschoolAPI.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Student>>> GetStudents()
         {
-            // If you want to include the parent information in the results
             return await _context.Students.ToListAsync();
         }
 
